@@ -1,0 +1,16 @@
+
+.escarabajo2 {margin:auto;
+    display:block;
+text-justify: distribute;}
+.Fondo {background-image:url(../Img/foto-de-una-planta.jpg);}
+h1 {text-align: center;background-color: rgb(207, 198, 198); font-size: 35px;line-height: 50px; letter-spacing: 0.40em;word-spacing: 0.3em;color: rgb(154, 29, 165);}
+.letra {font-family:'Times New Roman', Times, serif;}
+.gris {background-color:rgb(218, 222, 226)}
+.subtitulos {background-color: rgb(207, 198, 198); font-size: 20px;line-height: 30px; letter-spacing: 0.40em;word-spacing: 0.3em;color: rgb(154, 29, 165)}
+.cursiva {font-style: italic; font-weight: bold;}
+.negrilla {font-weight: bold;}
+#modalidad {text-align: center;background-color:rgb(144, 80, 150); font-size: 25px;color: rgb(255, 255, 255);letter-spacing: 0.60em}
+#cambio {color:rgb(255, 255, 255);}
+#cambio_letra { font-size: 20px;}
+#info_personal { text-align: center; font-size: 50px;} 
+

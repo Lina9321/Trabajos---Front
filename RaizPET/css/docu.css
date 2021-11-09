@@ -1,0 +1,22 @@
+
+.float {float:right;
+    padding-left: 10px;
+}
+
+.float3 {float: left;
+    padding-block-end: 10px;
+    text-align: left }
+
+#dimension { max-width:1550px;
+    max-height:1000px}
+.centrado { text-align:center ;
+font-size: 500%;}
+.ori {float:right;
+    padding-left: 10px;}
+.rosado {background-color:palevioletred;}
+.imagenc { border: black 1px solid;
+    width: 200px}
+.change {color: chocolate;
+    font-weight:bold;}
+.fondo2 {background-color: darkgoldenrod;}
+.tamano {font-size: 30px;}
