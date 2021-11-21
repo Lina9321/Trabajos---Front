@@ -29,4 +29,14 @@ position: relative;
 top: 80%;
 bottom: 0%;}
 .display {display: flex;
-    align-items: center;}
+    align-items: center;
+
+}
+@media  (max-width:720px)
+{.display{display: flex;
+flex-direction: column;
+column-count:2;
+}
+
+
+} 

@@ -3,20 +3,112 @@
     padding-left: 10px;
 }
 
-.float3 {float: left;
-    padding-block-end: 10px;
-    text-align: left }
+.float3 { display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+color: white;
+font-size: 12px}
+.float3 p,ul { margin-left: 5%;
+margin-right: 5%;}
+.float2 {display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;}
+.float2 p {margin-left: 3%;
+    font-size: 20px;}
+.float2 ul {display: flex;
+    justify-content: flex-end; }
+.estilo1 {background-color: black;
+color: white;
+font-size: 12px;}
+.jugar img {position: relative;}
+.jugar h2 {position: absolute;
+top: 53%;
+left: 70%;
+background-color: white;
+font-size: 32px;
+padding: 8px;}
+.jugar p {position: absolute;
+    top: 65%;
+    left: 76%;
+font-size: 20px;
+font-weight: bold;}
+.jugar h3 {position: absolute;
+    top: 72%;
+    left: 79%;
+    color: white;
+background-color: orange;
+padding: 20px;}
 
-#dimension { max-width:1550px;
+#dimension { max-width:100%;
     max-height:1000px}
-.centrado { text-align:center ;
+.vertical p, h1, p {display: flex;
+justify-content:  center;
+margin: 8px;}
+.vertical h1 {font-size: 50px;}
+.huellita { 
 font-size: 500%;}
-.ori {float:right;
-    padding-left: 10px;}
+.ori { padding-left: 10px;}
 .rosado {background-color:palevioletred;}
-.imagenc { border: black 1px solid;
-    width: 200px}
-.change {color: chocolate;
+
+.imagenes {display: flex;
+justify-content: space-around;}
+main {position:relative ;}
+imagenes img {position: relative;}
+.imagenes p {position: absolute;
+right: 79%;
+top: 68%;}
+
+.imagenc { width: 30%;
+    height: 30% ;
+}
+main {position: relative;}
+.mover1 {display: flex;
+justify-content: space-around;
+
+}
+.moverp {position: absolute;
+right: 77%;
+top: 70%;
+font-size: 25px;
+font-weight: bold;}
+.moverp2 {position: absolute;
+right: 43%;
+top:70%;
+font-size: 25px;
+font-weight: bold;}
+.moverp3 {position: absolute;
+    right: 11%;
+    top:70%;
+font-size: 25px;
+font-weight: bold;}
+.mover2 {display: flex;
+    justify-content: space-around}
+
+
+
+.change1 {position: absolute;
+    right: 82%;
+    top:75%;
+    color: chocolate;
+    font-weight:bold;}
+.change2 {position: absolute;
+    right: 48%;
+    top:75%;
+    color: chocolate;
+    font-weight:bold;}
+.change3 {position: absolute;
+    right: 15%;
+    top:75%;
+    color: chocolate;
     font-weight:bold;}
 .fondo2 {background-color: darkgoldenrod;}
 .tamano {font-size: 30px;}
+.lasP  {display: flex;
+justify-content: space-around;}
+
+@media (min-width:480px)
+{.jugar h2,p,h3 {align-items: stretch;}
+.imagenes {flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap;} }

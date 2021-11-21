@@ -1,0 +1,63 @@
+header {display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-bottom: 60px;
+   
+   }
+
+.pading {color: white;
+padding: 20px;}
+
+.ul {display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.div1 {display: flex;
+align-items: center;
+margin: 15px;}
+
+
+
+
+ main {display: flex;
+    justify-content: space-around;
+position: relative;
+margin-left: 25px;
+margin-right:25px ;} 
+.delivery {margin-left: 10%;
+font-size: 40%;}
+ ol {position: absolute;
+ right: 30%;
+top: 130px ;}
+
+.li {padding-bottom: 10%;
+font-weight: bold;}
+.sobre {font-size: 24px;
+    color: red;
+    font-weight: bold;
+    position:absolute;
+top: 1%;
+left:22% ;}
+.change {color:white}
+.div2 {background-color: seashell;
+justify-content: space-around;}
+.position1 {position:absolute;
+right: 20%;
+font-weight: bold;
+font-size: 27px;}
+.position2 {margin-top: 25px;
+    position:absolute;
+    right: 32%;
+top:22%;
+font-weight: bold;
+font-size: 19px;}
+.position3 {position:absolute;
+   
+top:45%;}
+footer {display: flex;
+    justify-content: space-between;
+margin-top: 60px;
+background-color: black;}
+.ampliar {margin: 70%;}
+.final {color: white;
+    padding: 5px;}
